@@ -1,0 +1,16 @@
+{
+  "name": "ts-config-top-level-await-issue",
+  "version": "1.0.0",
+  "description": "Sample project",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "codegen",
+    "fail": "npm run codegen",
+    "success":"npm run codegen -w tools/codegen"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "tools/*"
+  ]
+}

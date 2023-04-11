@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "Node16",
+        "target": "ES2017"
+    },
+    "ts-node": {
+        "esm": true
+    }
+}
