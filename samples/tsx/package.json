@@ -1,0 +1,8 @@
+{
+  "name": "tsx-sample",
+  "version": "1.0.0", 
+  "scripts": {
+    "test:tsx": "tsx-sample"
+  },
+  "bin": "index.mts"
+}
