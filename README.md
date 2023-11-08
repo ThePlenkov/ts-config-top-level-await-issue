@@ -9,10 +9,11 @@ To see it you can run `npm run fail`. `npm run success` shows the current workar
 
 ## Current behavior
 
-`npx codegen` on the root level fails
-`npx codegen` on the `tools/codegen` level works
+- `npx ts-node-sample` on the root level fails (because no tsconfig on the top-level)
+- `npx -w samples/ts-node ts-node-sample` on the root level works because we mention the workspace where to run this command
+- `npx tsx tsx-sample` just works
 
 ## Expected behavior
-`npx codegen` on the root level should also work since the base folder is `tools/codegen` , not root for the typescript file.
+`npx ts-node-sample` on the root level should also work since the base folder of executable file is `samples/ts-node` also containing tsconfig.json
 
 

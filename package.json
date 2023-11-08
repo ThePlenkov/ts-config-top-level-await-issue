@@ -4,8 +4,9 @@
   "description": "Sample project",
   "main": "index.js",
   "scripts": {
-    "fail": "npx ts-node-sample",
-    "success": "npx tsx-sample"
+    "ts-node:fail": "npx ts-node-sample",
+    "ts-node:ok": "npx -w samples/ts-node ts-node-sample",    
+    "tsx:ok": "npx tsx-sample"
   },
   "author": "",
   "license": "ISC",
