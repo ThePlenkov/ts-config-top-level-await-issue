@@ -6,6 +6,5 @@
   "scripts": {
     "test:ts-node": "ts-node-sample"
   },  
-  "bin": "index.mts",
-  "type": "module"
+  "bin": "index.mts"
 }
